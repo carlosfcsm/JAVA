@@ -1,0 +1,18 @@
+public teste{
+
+  public static void main(String[] args){
+  
+  final int tamanho = 50;
+  
+  int[] vetPar = new int[tamanho];
+  int[] vetImpar = new int [tamanho]
+  
+  for(int i = 0; i < 100; i++){
+  
+  if(i % 2 == 0){
+    vetPar[i] = i;
+  }else
+    vetImpar[i] = i;
+    }
+  }
+}
